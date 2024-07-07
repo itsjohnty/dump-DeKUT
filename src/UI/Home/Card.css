@@ -1,0 +1,118 @@
+.card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 610px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .map-container {
+    width: 80%;
+    height: 150px;
+    position: relative;
+  }
+
+  .pin {
+    position: relative;
+  }
+  
+  .pin-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: #333;
+  }
+  .pin-icon {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 50% 50% 50% 0;
+    background: #ff3366;
+    transform: rotate(-45deg);
+    border: 2px solid #fff;
+  }
+  
+  .pin-icon:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border-radius: 50%;
+    top: 9px;
+    left: 8px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .file-upload-label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .file-upload-input {
+    display: none;
+  }
+  
+
+.complaint-text{
+margin-bottom: 5px;
+}
+  

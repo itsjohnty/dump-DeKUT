@@ -1,0 +1,88 @@
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  rgba(255, 230, 4, 0.1);;
+}
+  .App {
+      height: 100vh;
+      display: flex;
+      color: white;
+  }
+  
+  .appForm1 {
+      width: 30%;
+      padding-top: 20px;
+      overflow: auto;
+      color:black
+  }
+  .appAside1 {
+      width: 70%;
+      color: black;
+      margin-left: 40px;
+      margin-top: 30px;
+      
+  }
+  p {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+    width: 90%;
+  }
+  
+  .heading{
+      color: #3E7A2F;
+  }
+  .subheading
+  {
+     color:#478036 ; 
+     padding: 20px;
+  }
+  .logoimg{
+    width: 5%;
+    height: 10%;
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+  .accountimg{
+    width: 4%;
+    height: 30%;
+    margin-top: 5px;
+    margin-left: 1000px;
+    border-radius: 50%;
+  }
+
+  .sideimg1{
+    position: absolute;
+    width: 25%;
+    margin-left: 4%;
+    float: right;
+  }
+  .spantext{
+    float: right;
+    margin-right: 45px;
+    margin-top: 35px;
+  }
+.active{
+  font-size: 18px;
+  text-decoration: none;
+  color:black
+}
+
+.complaintsButton {
+  background-color: rgb(255 252 229);
+  width: 200px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.complaintsButton:hover {
+  background-color: rgb(253, 247, 202);
+}
+
+
+
+
+
