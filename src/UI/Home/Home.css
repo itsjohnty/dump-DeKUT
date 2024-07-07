@@ -20,12 +20,15 @@ body {
 
 .logo-container {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .logoimg {
+  margin-top: 5%;
   width: 50px;
-  height: auto;
+  height: 50px;
+  transform: scale(2);
   margin-right: 15px;
 }
 

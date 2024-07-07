@@ -5,8 +5,11 @@
 }
 
 .appAside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   width: 50%;
-  background-color: #fafafa;
 }
 
 .appForm {
@@ -51,24 +54,20 @@
 
 .logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 35%;
-  width: 35%;
+  width: 50%;
 }
 
-.buttonmargin{
+.buttonmargin {
   padding-top: 20px;
   margin-left: 290px;
 }
-.buttonmargin1{
+.buttonmargin1 {
   padding-top: 20px;
 }
 .pageSwitcherItem-active {
   /* background-color: rgba(255, 230, 4, 0.1); */
   color: rgba(255, 230, 4, 0.1);
 }
-
 
 .pageSwitcherItem:first-child {
   border-top-left-radius: 25px;
@@ -196,13 +195,13 @@
   font-weight: bold;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
-.box{
+.box {
   width: 250px;
   float: left;
   margin-left: 20%;
   margin-bottom: 10px;
 }
-.centermargin{
+.centermargin {
   margin-inline: auto;
 }
 
@@ -246,7 +245,7 @@
   width: 100%;
 }
 
-.form-group input[type='file'] {
+.form-group input[type="file"] {
   cursor: pointer;
 }
 
