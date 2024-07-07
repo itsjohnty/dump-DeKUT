@@ -1,88 +1,128 @@
-ul {
+body {
+  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color:  rgba(255, 230, 4, 0.1);;
+  background-color: #f8f9fa;
 }
-  .App {
-      height: 100vh;
-      display: flex;
-      color: white;
-  }
-  
-  .appForm1 {
-      width: 30%;
-      padding-top: 20px;
-      overflow: auto;
-      color:black
-  }
-  .appAside1 {
-      width: 70%;
-      color: black;
-      margin-left: 40px;
-      margin-top: 30px;
-      
-  }
-  p {
-    margin-top: 10px;
-    padding: 10px;
-    text-align: justify;
-    width: 90%;
-  }
-  
-  .heading{
-      color: #3E7A2F;
-  }
-  .subheading
-  {
-     color:#478036 ; 
-     padding: 20px;
-  }
-  .logoimg{
-    width: 5%;
-    height: 10%;
-    margin-left: 40px;
-    margin-top: 5px;
-  }
-  .accountimg{
-    width: 4%;
-    height: 30%;
-    margin-top: 5px;
-    margin-left: 1000px;
-    border-radius: 50%;
-  }
 
-  .sideimg1{
-    position: absolute;
-    width: 25%;
-    margin-left: 4%;
-    float: right;
-  }
-  .spantext{
-    float: right;
-    margin-right: 45px;
-    margin-top: 35px;
-  }
-.active{
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 230, 4, 0.8),
+    rgba(255, 182, 4, 0.8)
+  );
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logoimg {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.welcome-text {
+  font-size: 18px;
+  color: #333;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
   font-size: 18px;
   text-decoration: none;
-  color:black
-}
-
-.complaintsButton {
-  background-color: rgb(255 252 229);
-  width: 200px;
   color: black;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  transition: color 0.3s;
 }
 
-.complaintsButton:hover {
+.nav-link:hover {
+  color: #3e7a2f;
+}
+
+.nav-button {
+  background-color: rgb(255, 252, 229);
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
   background-color: rgb(253, 247, 202);
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #333;
+}
 
+.admin-page,
+.user-content {
+  width: 100%;
+  max-width: 1200px;
+}
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 100%;
+}
 
+.welcome-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
 
+.welcome-text-content {
+  flex: 1;
+}
+
+.raise-complaint {
+  flex: 0 0 30%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-text-content h2 {
+  color: #3e7a2f;
+}
+
+.welcome-text-content h3 {
+  color: #478036;
+  padding: 10px 0;
+}
+
+.welcome-text-content p {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: justify;
+  width: 90%;
+}
